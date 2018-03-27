@@ -54,6 +54,7 @@ public class TestsForHomsters {
         driver.get("https://homsters.kz/");
         HomePage homePage=new HomePage(driver);
         homePage.logbrowser();
+        Assert.assertTrue(true);
         }
     @After
     public void quit(){
